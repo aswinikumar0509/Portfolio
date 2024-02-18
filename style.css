@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #111827;
+    color: white;
+}
+
+.container{
+    max-width: 130rem;
+    margin: 0 auto;
+    padding: 0 100px;
+
+}
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.grow-list {
+    flex-grow: 1;
+    padding-left: 62px;
+  }
+  
+  .list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 35px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+  }
+  
+  .list li {
+    cursor: pointer;
+  }
+  
+  .list li:hover {
+    color: #5955b3;
+  }
+
+  img[alt="menu"]{
+    width: 20px;
+    display: none;
+}
+
+.intro{
+    max-width: 100vw;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    gap: 30px;
+}
+
+.intro-line-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+.intro-line-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.intro-line-2 h1{
+    font-size: 60px;
+}
+.intro-line-2 h2{
+    font-size: 45px;
+    color: rgb(197, 197, 89);
+}
+img[alt="hello"]{
+    height: 45px;
+}
+img[alt="pc-image"]{
+    width: 30vw;
+}
+img[alt="project-image"]{
+    width: 20vw;
+}
+
+.projects{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projects div h1{
+    font-size: 40px;
+}
+
+img[alt="project-image"]{
+    width: 10vw;
+}
+
+
+
+.horizontal-divider{
+    height: 10px;
+    width: 135px;
+    background-color: rgb(131, 131, 173);
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.project-list{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+    column-gap: 20px; 
+}
+
+.contact{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact div h1{
+    font-size: 40px;
+}
+
+.horizontal-divider-contact{
+    height: 10px;
+    width: 200px;
+    background-color:rgb(131, 131, 173);
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+img[alt="social"]{
+    width: 50px;
+}
